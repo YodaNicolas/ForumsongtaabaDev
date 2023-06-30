@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/Styles commun/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/Styles specifiques/css/posepreoc.css">
+
+</head>
+
+<body>
+    <div container-fluid class="CorpPreoc row justify-content-center">
+        <div class="ZoneTXT">
+            <div class="DivchxCat">
+                Choisir une categorie:
+                <select class="form-select lrgeurZoneSelect" aria-label="Default select example">
+                    <option selected value="0">Selectionner</option>
+                    <option value="1">HTML</option>
+                    <option value="2">CSS</option>
+                    <option value="3">JAVASCRIPT</option>
+                    <option value="4">BOOTSTRAP</option>
+                </select>
+            </div>
+            <br>
+            <form action="">
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Saisissez votre préocupation:</label>
+                    <textarea name="preocupation" class="form-control" id="exampleFormControlTextarea1" rows="13"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Lien menant au code (Facultatif)</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Collez le lien ici">
+                </div>
+                <div class="barEnJeu mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Mettre en jeu (Facultatif):</label>
+                        <input type="number" class="form-control ZneEnjeu" id="exampleFormControlInput1" placeholder="points en jeux"> 
+                </div>
+                <div class="DivBtn">
+                    <button class="btnsub"> Publier </button>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+    <script src="../styles/Styles commun/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

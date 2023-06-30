@@ -1,0 +1,64 @@
+body {
+    background-image: url(../../../images/istockphoto-1303837116-612x612.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ajout {
+    font-weight: bold;
+    color: rgb(253, 253, 253);
+
+    text-align: center;
+    width: 98%;
+}
+
+.fondForm {
+    width: 97%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    /* background-color: rgba(0, 0, 0, 0.726); */
+}
+
+.label {
+    font-weight: bold;
+    color: white;
+}
+
+input {
+    opacity: 50%;
+}
+
+.corpform {
+    background-color: rgba(0, 0, 0, 0.792);
+    border-radius: 18px;
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    padding: 15px;
+}
+
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    gap: -150px !important;
+    width: 65%;
+    /* background-color: aqua; */
+}
+
+.form-control {
+    opacity: 85%;
+}
+
+.btn {
+    width: 20%;
+    min-width: 110px;
+    border-radius: 40px !important;
+}

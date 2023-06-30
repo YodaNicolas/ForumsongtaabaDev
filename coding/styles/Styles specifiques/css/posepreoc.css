@@ -1,0 +1,66 @@
+form {
+    background-color: rgb(156, 76, 0);
+}
+
+.lrgeurZoneSelect {
+    width: 50% !important;
+}
+
+.DivchxCat {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(138, 136, 4);
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 25%;
+    min-width: 323.5px;
+}
+
+.ZoneTXT {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.barEnJeu {
+    width: 100%;
+    min-width: 282.391px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.ZneEnjeu {
+    width: 127.34px;
+
+}
+
+.DivBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btnsub {
+   color: aliceblue;
+    border-style: solid !important;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: #ffffff;
+    height: 40px !important;
+    min-width: 100px !important;
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.btnsub:hover {
+    background: #03e9f4;
+    color: #fcfcfc;
+    border-radius: 5px;
+    transition: .4s;
+    box-shadow: 0 0 5px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 100px #03e9f4;
+}
