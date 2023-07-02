@@ -1,4 +1,6 @@
 form {
+    border-radius: 13px;
+    padding: 8px;
     background-color: rgb(156, 76, 0);
 }
 
@@ -11,9 +13,10 @@ form {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(138, 136, 4);
-    border-top-right-radius: 8px;
-    border-bottom-left-radius: 8px;
+    background-color: rgb(94, 96, 99);
+   border-radius: 8px;
+    /* border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px; */
     width: 25%;
     min-width: 323.5px;
 }

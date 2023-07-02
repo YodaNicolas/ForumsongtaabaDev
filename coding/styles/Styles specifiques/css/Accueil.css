@@ -1,0 +1,27 @@
+body{
+    background-image: url(../../../images/logoforum.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.dcale{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    width: 100%;
+}
+.BoutonsIscription{
+    width: 12%;
+    min-width: 118.31px;
+    border-style: solid;
+    border-color: black;
+}
+
+.AutoWrit{
+    font-weight: bold;
+    width: 50%;
+    font-size: 4rem;
+    text-align: center;
+    
+}
