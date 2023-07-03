@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: "Lato", Arial, Helvetica, serif;
-    background: linear-gradient(90deg, #131417, var(--dark) 35% 65%, #131417);
+    background: linear-gradient(90deg, #cfd1d8, var(--dark) 35% 65%, #131417);
     font-size: 1em;
 }
 

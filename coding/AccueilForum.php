@@ -19,9 +19,9 @@
 
             <!-- <h2 class="Veuillez">Veuillez vous connecter</h2> -->
             <div class="LigneBoutons">
-                <a href="../Se connecter.html"><button type="button" class="btn btn-primary BoutonsIscription">Se
+                <a href="pages/Se_connecter.php"><button type="button" class="btn btn-primary BoutonsIscription">Se
                         connecter</button></a>
-                <a href="../enregistrement.html"><button type="button"
+                <a href="pages/formulaire.php"><button type="button"
                         class="btn btn-light BoutonsIscription">S'inscrire</button></a>
             </div>
 

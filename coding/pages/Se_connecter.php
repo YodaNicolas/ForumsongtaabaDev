@@ -54,11 +54,11 @@
         } else {
            
             echo '<script> alert("Mot de passe et/ou email invalide")</script>';
-            echo '<script> window.location.href="page connexion.php"</script>';
+            echo '<script> window.location.href="Se_connecter.php"</script>';
         }
     }
     if (isset($_SESSION["numero"])) {
-        header("location:liste preocupation.php");
+        header("location:liste_preocupation.php");
         echo 'connecté avec succes';
     }
     ;
