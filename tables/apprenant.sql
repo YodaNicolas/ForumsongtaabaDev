@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : ven. 23 juin 2023 à 15:44
+-- Généré le : lun. 03 juil. 2023 à 10:43
 -- Version du serveur : 10.4.28-MariaDB
 -- Version de PHP : 8.2.4
 
@@ -31,7 +31,9 @@ CREATE TABLE `apprenant` (
   `id_apprenant` int(11) NOT NULL,
   `nom` varchar(255) NOT NULL,
   `prenom` varchar(255) NOT NULL,
-  `points` int(11) NOT NULL
+  `points` int(11) NOT NULL,
+  `numero_tel` int(11) NOT NULL,
+  `mot_de_passe` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -42,7 +44,8 @@ CREATE TABLE `apprenant` (
 -- Index pour la table `apprenant`
 --
 ALTER TABLE `apprenant`
-  ADD PRIMARY KEY (`id_apprenant`);
+  ADD PRIMARY KEY (`id_apprenant`),
+  ADD UNIQUE KEY `numero_tel` (`numero_tel`);
 
 --
 -- AUTO_INCREMENT pour les tables déchargées

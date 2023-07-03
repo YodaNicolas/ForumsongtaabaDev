@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : ven. 23 juin 2023 à 15:46
+-- Généré le : lun. 03 juil. 2023 à 10:46
 -- Version du serveur : 10.4.28-MariaDB
 -- Version de PHP : 8.2.4
 
@@ -32,7 +32,8 @@ CREATE TABLE `preocupation` (
   `id_sujet` int(11) NOT NULL,
   `id_etat` int(11) NOT NULL,
   `id_preocupe` int(11) NOT NULL,
-  `message` varchar(255) NOT NULL
+  `message` varchar(255) NOT NULL,
+  `point` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -57,18 +58,6 @@ ALTER TABLE `preocupation`
 --
 ALTER TABLE `preocupation`
   MODIFY `id_preocupation` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- Contraintes pour les tables déchargées
---
-
---
--- Contraintes pour la table `preocupation`
---
-ALTER TABLE `preocupation`
-  ADD CONSTRAINT `preocupation_ibfk_1` FOREIGN KEY (`id_sujet`) REFERENCES `sujet` (`id_sujet`),
-  ADD CONSTRAINT `preocupation_ibfk_2` FOREIGN KEY (`id_etat`) REFERENCES `etat` (`id_etat`),
-  ADD CONSTRAINT `preocupation_ibfk_3` FOREIGN KEY (`id_preocupe`) REFERENCES `apprenant` (`id_apprenant`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
