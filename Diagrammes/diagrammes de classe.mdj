@@ -188,13 +188,47 @@
 											"height": 13,
 											"text": "+points",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGJGu0TiISb/Cc=",
+											"_parent": {
+												"$ref": "AAAAAAGI5+v19He8xf4="
+											},
+											"model": {
+												"$ref": "AAAAAAGJGu0TgISYTdw="
+											},
+											"font": "Arial;13;0",
+											"left": 37,
+											"top": 122,
+											"width": 135,
+											"height": 13,
+											"text": "+telephone",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGJGu1BXYSiOPA=",
+											"_parent": {
+												"$ref": "AAAAAAGI5+v19He8xf4="
+											},
+											"model": {
+												"$ref": "AAAAAAGJGu1BToSfScA="
+											},
+											"font": "Arial;13;0",
+											"left": 37,
+											"top": 137,
+											"width": 135,
+											"height": 13,
+											"text": "+mot de passe",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 32,
 									"top": 57,
 									"width": 145,
-									"height": 68
+									"height": 98
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -217,7 +251,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 130,
+											"top": 160,
 											"width": 135,
 											"height": 13,
 											"text": "+s'inscrire()",
@@ -234,7 +268,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 145,
+											"top": 175,
 											"width": 135,
 											"height": 13,
 											"text": "+se connecter()",
@@ -251,7 +285,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 160,
+											"top": 190,
 											"width": 135,
 											"height": 13,
 											"text": "+se deconnecter()",
@@ -268,7 +302,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 175,
+											"top": 205,
 											"width": 135,
 											"height": 13,
 											"text": "+poser préocupation()",
@@ -285,7 +319,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 190,
+											"top": 220,
 											"width": 135,
 											"height": 13,
 											"text": "+repondre()",
@@ -302,7 +336,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 205,
+											"top": 235,
 											"width": 135,
 											"height": 13,
 											"text": "+supprimer reponse()",
@@ -311,7 +345,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 32,
-									"top": 125,
+									"top": 155,
 									"width": 145,
 									"height": 98
 								},
@@ -353,7 +387,7 @@
 							"left": 32,
 							"top": 32,
 							"width": 145,
-							"height": 191,
+							"height": 221,
 							"nameCompartment": {
 								"$ref": "AAAAAAGI5+v19He3CCc="
 							},
@@ -1837,6 +1871,22 @@
 							},
 							"name": "points",
 							"type": ""
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGJGu0TgISYTdw=",
+							"_parent": {
+								"$ref": "AAAAAAGI5+v183e0l2A="
+							},
+							"name": "telephone"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGJGu1BToSfScA=",
+							"_parent": {
+								"$ref": "AAAAAAGI5+v183e0l2A="
+							},
+							"name": "mot de passe"
 						}
 					],
 					"operations": [
@@ -1913,7 +1963,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGI5/J593ibphg="
 							},
-							"name": "prenom"
+							"name": "prenom",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1975,7 +2026,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGI5/YuLXj3Vs8="
 							},
-							"name": "id_sujet"
+							"name": "id_sujet",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1983,7 +2035,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGI5/YuLXj3Vs8="
 							},
-							"name": "id_etat"
+							"name": "id_etat",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1991,7 +2044,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGI5/YuLXj3Vs8="
 							},
-							"name": "id_preocuppé"
+							"name": "id_preocuppé",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2018,7 +2072,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGI6BIg13llqeU="
 							},
-							"name": "id_reponse"
+							"name": "id_reponse",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2026,7 +2081,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGI6BIg13llqeU="
 							},
-							"name": "id_preocupation"
+							"name": "id_preocupation",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2034,7 +2090,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGI6BIg13llqeU="
 							},
-							"name": "id_valeur_reponse"
+							"name": "id_valeur_reponse",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2042,7 +2099,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGI6BIg13llqeU="
 							},
-							"name": "id_repondant"
+							"name": "id_repondant",
+							"type": ""
 						}
 					]
 				},
@@ -2060,7 +2118,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGI6BTOeHmuQjw="
 							},
-							"name": "id_etat"
+							"name": "id_etat",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2087,7 +2146,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGI6BdFfHnvypI="
 							},
-							"name": "id_sujet"
+							"name": "id_sujet",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2095,7 +2155,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGI6BdFfHnvypI="
 							},
-							"name": "nom_sujet"
+							"name": "nom_sujet",
+							"type": ""
 						}
 					]
 				},
@@ -2113,7 +2174,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGI6C8j5Xo3Qzw="
 							},
-							"name": "id_valeur_reponse"
+							"name": "id_valeur_reponse",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2121,7 +2183,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGI6C8j5Xo3Qzw="
 							},
-							"name": "nom_valeur_reponse"
+							"name": "nom_valeur_reponse",
+							"type": ""
 						}
 					]
 				}

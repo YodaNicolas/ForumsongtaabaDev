@@ -17,7 +17,7 @@
             <div class="dcale"> <h1 class="AutoWrit" id="demo1"></h1></div>
             <p id="demo">
 
-            <h2 class="Veuillez">Veuillez vous connecter</h2>
+            <!-- <h2 class="Veuillez">Veuillez vous connecter</h2> -->
             <div class="LigneBoutons">
                 <a href="../Se connecter.html"><button type="button" class="btn btn-primary BoutonsIscription">Se
                         connecter</button></a>
@@ -27,10 +27,10 @@
 
         </div>
 
-        <div class="place row text-center justify-content-center">
+        <!-- <div class="place row text-center justify-content-center">
             <h1 class=" col-6"> PLACE POUR IMAGE</h1>
             <img src="" alt="">
-        </div>
+        </div> -->
 
     </div>
 
